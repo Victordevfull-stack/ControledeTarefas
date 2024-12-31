@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(43, 174, 226, 0.521);
+    font-weight: bold;
+    border-bottom: 20px solid rgba(10, 10, 10, 0.7);
+}
+header h1{
+    font-weight: bold;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+header img{
+    width: 60px;
+}
+
+header a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(43, 174, 226, 0.521);
+    padding: 16px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+form{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+form input{
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    flex: 2;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form button{
+    flex: 1;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    background-color: rgba(43, 174, 226, 0.521);
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container-02{
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-02 h1{
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    background: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
